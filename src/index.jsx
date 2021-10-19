@@ -58,7 +58,7 @@ class ReactFormBuilder extends React.Component {
            <Container />
          </div> */}
           <div className="react-form-builder clearfix">
-            <div>
+            <div style={{display: 'flex'}}>
               <Preview
                 files={this.props.files}
                 manualEditModeOff={this.manualEditModeOff.bind(this)}

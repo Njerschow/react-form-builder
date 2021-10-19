@@ -1,7 +1,7 @@
 {
-  "name": "react-form-builder2",
-  "version": "0.9.5",
-  "description": "A complete form builder for react.",
+  "name": "react-better-form-builder",
+  "version": "0.0.4",
+  "description": "A better drag & drop form builder for react.",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "license": "MIT",
@@ -28,6 +28,11 @@
   },
   "author": "Kiho Chang",
   "contributors": [
+    {
+      "name": "Nikita Jerschow",
+      "email": "nikita.jerschow@gmail.com",
+      "url": "https://turtlebytes.com"
+    },
     {
       "name": "Zach Robichaud",
       "email": "zach2825@gmail.com",
@@ -56,8 +61,8 @@
     "xss": "^1.0.8"
   },
   "peerDependencies": {
-    "react": ">=16.8.6",
-    "react-dom": ">=16.8.6"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",

@@ -4,10 +4,9 @@
     // width: 70%;
     border: 1px solid #ddd;
     background: #fafafa;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
     min-height: 750px;
-    width:100%;
 
     .preview-page-break {
       padding: 5px 0;
@@ -406,13 +405,14 @@
 }
 
 .form-place-holder {
-  margin:10px; 
+  margin:0px; 
   border:2px dashed #bbb;
   -moz-border-radius:5px;
   -webkit-border-radius:5px;
   border-radius:5px;
   padding:25px;
   text-align:center;
+  height: 100%;
   font:20pt bold,"Vollkorn";color:#bbb
 }
 
